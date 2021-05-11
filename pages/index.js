@@ -1,9 +1,10 @@
 import React from 'react';
-import homePic from '../public/images/home.png';
+import Image from 'next/image';
 
 const Home = () => (
   <div>
-    <img src={ homePic } alt="home" />
+    <Image src="/public/home.png" alt="home" width={ 500 } height={ 500 } />
+    <img src="/public/home.png" alt="home" />
   </div>
 );
 
