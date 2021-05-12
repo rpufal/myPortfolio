@@ -1,10 +1,9 @@
 import React from 'react';
-import Image from 'next/image';
+import Projects from './Projects';
 
 const Home = () => (
   <div>
-    <Image src="/public/home.png" alt="home" width={ 500 } height={ 500 } />
-    <img src="/public/home.png" alt="home" />
+    <Projects />
   </div>
 );
 
