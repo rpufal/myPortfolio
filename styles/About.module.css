@@ -1,0 +1,20 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #16b540;
+    height: 30rem;
+}
+
+.about h2 {
+    color: white
+}
+
+.about p {
+    color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 1.2rem;
+    text-align: center;
+}

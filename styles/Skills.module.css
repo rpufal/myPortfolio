@@ -1,0 +1,14 @@
+.sectionSkills {
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.divSkills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 33%;   
+}
