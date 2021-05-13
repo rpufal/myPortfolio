@@ -2,6 +2,8 @@
     width: 80%;
     margin-right: 10%;
     margin-left: 10%;
+    display: flex;
+    border-radius: 5%;
 }
 
 .divSkills {
@@ -10,5 +12,42 @@
     justify-content: center;
     align-items: center;
     border: 1px solid black;
-    width: 33%;   
+    /* border-radius: 3%; */
+    width: 33%;
+    padding-bottom: 5%;
+    padding-top: 3%;
+}
+
+.skillTitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+}
+
+.skillTitle h2 {
+    color: #16b540;
+}
+
+.skillTitle p {
+    font-size: 1.2rem;
+}
+
+
+.skillList {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skillList h3 {
+    color: #16b540;
+}
+
+.skillList p {
+    font-size: 1.2rem;
 }

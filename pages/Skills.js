@@ -1,23 +1,23 @@
 import React from 'react';
 import styles from '../styles/Skills.module.css';
-
-const frontendTools = ['Javascript', 'React', 'Redux',
-  'React Hooks', 'HTML', 'CSS', 'Bash', 'Git', 'Github'];
+import SkillsInfos from '../infos/SkillsInfos';
+import SkillCard from '../components/SkillCard';
 
 const Skills = () => (
   <section className={ styles.sectionSkills }>
-    <div className={ styles.divSkills }>
-      <img src="" alt="programming-logo" />
-      <h2>Front-end Developer</h2>
-      <p>
-        I like to code things from scratch, and enjoy
-        bringing ideas to life in the browser.
-      </p>
-      <h3>Languages, frameworks and tools</h3>
-      <div>{frontendTools.map((tool) => <p key={ tool }>{tool}</p>)}</div>
-    </div>
-    {/* <div>Soft Skills</div>
-    <div>Miscellaneous</div> */}
+    { Object.keys(SkillsInfos).map((skill) => {
+      const currentSkill = SkillsInfos[skill];
+      return (
+        <SkillCard
+          key={ skill }
+          imgSrc={ currentSkill.imgSrc }
+          imgAlt={ currentSkill.imgAlt }
+          skillTitle={ currentSkill.skillTitle }
+          skillDescription={ currentSkill.skillDescription }
+          toolsList={ currentSkill.toolsList }
+        />
+      );
+    })}
   </section>
 );
 
