@@ -11,4 +11,15 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /* background-color: #16b540; */
+
+}
+
+.Projects h2 {
+    /* color: #16b540; */
+    font-size: 2rem;
+}
+
+.Projects p {
+    font-size: 1.2rem;
 }

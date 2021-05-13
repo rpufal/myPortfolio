@@ -1,7 +1,7 @@
 const nameT = 'Recipes App';
 const descriptionT = 'Compiling multiple recipes for easy access to everyone';
 const hrefT = 'https://recipes-app-iota.vercel.app/';
-const srcImgT = '/ProjectLogos/recipe_logo.jpg';
+const srcImgT = '/ProjectLogos/cooking.png';
 const tagsT = ['React', 'React_Hooks', 'API'];
 // const tagsT = 'teste';
 
