@@ -3,7 +3,10 @@
     margin-right: 10%;
     margin-left: 10%;
     display: flex;
-    border-radius: 5%;
+    /* border: px solid black; */
+    /* border-radius: 2%; */
+    height: 100%;
+    padding-bottom: 12%;
 }
 
 .divSkills {
@@ -11,12 +14,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid black;
+    border: 1.5px solid black;
+    margin: 1%;
     /* border-radius: 3%; */
     width: 33%;
-    padding-bottom: 5%;
-    padding-top: 3%;
+    height: 55rem;
+    /* height: 100%; */
 }
+
 
 .skillTitle {
     display: flex;
@@ -42,6 +47,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .skillList h3 {
@@ -50,4 +56,17 @@
 
 .skillList p {
     font-size: 1.2rem;
+}
+
+.firstHalf {
+    height: 20rem;
+    height: 40%;
+    text-align: center;
+}
+
+.secondHalf {
+    height: 25rem;
+    /* height: 45%; */
+    text-align: center;
+    padding-bottom: 2rem;
 }
