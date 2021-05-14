@@ -1,0 +1,23 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.indexDisplay {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+}
+
+.header h1 {
+    color: #16b540;
+}
+
+.indexDisplay h3 {
+    color: #16b540;
+}
+

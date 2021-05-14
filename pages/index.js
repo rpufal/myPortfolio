@@ -1,9 +1,19 @@
 import React from 'react';
-import homePic from '../public/images/home.png';
+import Projects from './Projects';
+import Header from '../components/Header';
+import About from './About';
+import Skills from './Skills';
+import Footer from '../components/Footer';
+import Title from './Title';
 
 const Home = () => (
   <div>
-    <img src={ homePic } alt="home" />
+    <Header />
+    <Title />
+    <About />
+    <Skills />
+    <Projects />
+    <Footer />
   </div>
 );
 
