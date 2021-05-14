@@ -5,6 +5,7 @@ import About from './About';
 import Skills from './Skills';
 import Footer from '../components/Footer';
 import Title from './Title';
+import ProjectsSecond from './ProjectsSecond';
 
 const Home = () => (
   <div>
@@ -12,7 +13,8 @@ const Home = () => (
     <Title />
     <About />
     <Skills />
-    <Projects />
+    {/* <Projects /> */}
+    <ProjectsSecond />
     <Footer />
   </div>
 );

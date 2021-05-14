@@ -6,7 +6,7 @@ const srcImgT = '/ProjectLogos/cooking-green.png';
 const tagsT = ['React', 'React_Hooks', 'API'];
 // const tagsT = 'teste';
 
-const ProjectsInfo = {
+const ProjectsInfos2 = {
   RecipesApp1: {
     name: nameT,
     description: descriptionT,
@@ -51,4 +51,4 @@ const ProjectsInfo = {
   },
 };
 
-export default ProjectsInfo;
+export default ProjectsInfos2;
