@@ -9,7 +9,6 @@ const Header = () => (
       <h3>Skills</h3>
       <h3>Projects</h3>
       <h3>Contact</h3>
-      <h3>Blog</h3>
     </div>
   </header>
 );
