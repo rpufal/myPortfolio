@@ -4,6 +4,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    padding-bottom: 10%;
 }
 
 .Projects {
@@ -11,13 +12,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* background-color: #16b540; */
-
 }
 
 .Projects h2 {
-    /* color: #16b540; */
-    font-size: 2rem;
+    font-size: 2.5rem;
+    color: #16b540
 }
 
 .Projects p {

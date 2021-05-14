@@ -17,7 +17,6 @@
     height: auto;
     transition: .5s ease;
     backface-visibility: hidden;
-    /* border-radius: 10%; */
     height: 100%;
     /* background-color: #16b540; */
 }
@@ -53,6 +52,7 @@
 
 .TitleCard h3 {
     margin-bottom: 10px;
+    font-size: 1.5rem;
 }
 
 
@@ -67,7 +67,7 @@
 .CardButton {
     border: none;
     margin: none;
-    background-color: green;
+    background-color:#16b540;
     color: white;
     padding: 0.5rem;
     border-radius: 0.8rem;
@@ -81,7 +81,7 @@
 }
 
 .tag {
-    background-color: green;
+    background-color: #16b540;
     color: white;
     font-size: 0.9rem;
     margin: 2px;

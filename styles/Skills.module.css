@@ -3,23 +3,24 @@
     margin-right: 10%;
     margin-left: 10%;
     display: flex;
-    /* border: px solid black; */
-    /* border-radius: 2%; */
     height: 100%;
     padding-bottom: 12%;
 }
 
+.Background {
+    background: linear-gradient(to bottom, #16b540 30%, white 30%);
+}
+
 .divSkills {
+    background: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border: 1.5px solid black;
     margin: 1%;
-    /* border-radius: 3%; */
     width: 33%;
     height: 55rem;
-    /* height: 100%; */
 }
 
 
@@ -66,7 +67,6 @@
 
 .secondHalf {
     height: 25rem;
-    /* height: 45%; */
     text-align: center;
     padding-bottom: 2rem;
 }

@@ -1,0 +1,17 @@
+.ShortDescription {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, transparent 70%, #16b540 70%);
+}
+
+.ShortDescription h1 {
+    color: #16b540;
+    font-size: 3rem;
+}
+
+.ShortDescription h4 {
+    color: #16b540;
+    font-size: 1.5rem;
+}
