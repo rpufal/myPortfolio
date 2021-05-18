@@ -10,9 +10,9 @@ const Footer = () => (
     </div>
     <h2 className={ styles.HeaderTitle }>Trying to be my best version everyday</h2>
     <div className={ styles.ButtonsDisplay }>
-      <img src="/SocialLogos/github.svg" alt="github" width="33%" />
-      <img src="/SocialLogos/linkedin.svg" alt="linkedin" width="33%" />
-      <img src="/SocialLogos/twitter.svg" alt="twitter" width="33%" />
+      <a href="https://github.com/rpufal"><img src="/SocialLogos/github.png" alt="github" width="60%" /></a>
+      <a href="https://www.linkedin.com/in/rpufal/"><img src="/SocialLogos/linkedin.png" alt="linkedin" width="60%" /></a>
+      <a href="https://twitter.com/rpufal1"><img src="/SocialLogos/twitter.png" alt="twitter" width="60%" /></a>
     </div>
     <p>Made with love by me © Pandemic Year 2</p>
   </footer>

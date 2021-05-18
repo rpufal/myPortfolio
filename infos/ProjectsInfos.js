@@ -1,53 +1,59 @@
-const nameT = 'Recipes App';
-const descriptionT = 'Compiling multiple recipes for easy access to everyone';
-const hrefT = 'https://recipes-app-iota.vercel.app/';
-const srcImgT = '/ProjectLogos/cooking.png';
-const srcImgG = '/ProjectLogos/cooking-green.png';
-const tagsT = ['React', 'React_Hooks', 'API'];
+const nameRecipes = 'Recipes App';
+const descriptionRecipes = 'Compiling multiple recipes for easy access to everyone';
+const hrefRecipes = 'https://recipes-app-iota.vercel.app/';
+const srcImgRecipes = '/ProjectLogos/cooking.png';
+const srcImgRecipesG = '/ProjectLogos/cooking-green.png';
+const tagsRecipes = ['React', 'React_Hooks', 'API'];
 // const tagsT = 'teste';
+
+const nameTrivia = 'Trivia App';
+const descriptionTrivia = 'Trivia game for anyone that enjoys a challenge';
+const hrefTriva = 'https://recipes-app-iota.vercel.app/';
+const srcImgTrivia = '/ProjectLogos/quiz.png';
+const tagsTrivia = ['React', 'Redux', 'API'];
 
 const ProjectsInfo = {
   RecipesApp1: {
-    name: nameT,
-    description: descriptionT,
-    href: hrefT,
-    srcImg: srcImgT,
-    tags: tagsT,
+    name: nameRecipes,
+    description: descriptionRecipes,
+    href: hrefRecipes,
+    srcImg: srcImgRecipes,
+    tags: tagsRecipes,
   },
   RecipesApp2: {
-    name: nameT,
-    description: descriptionT,
-    href: hrefT,
-    srcImg: srcImgG,
-    tags: tagsT,
+    name: nameRecipes,
+    description: descriptionRecipes,
+    href: hrefRecipes,
+    srcImg: srcImgRecipesG,
+    tags: tagsRecipes,
   },
   RecipesApp3: {
-    name: nameT,
-    description: descriptionT,
-    href: hrefT,
-    srcImg: srcImgT,
-    tags: tagsT,
+    name: nameRecipes,
+    description: descriptionRecipes,
+    href: hrefRecipes,
+    srcImg: srcImgRecipes,
+    tags: tagsRecipes,
   },
   RecipesApp4: {
-    name: nameT,
-    description: descriptionT,
-    href: hrefT,
-    srcImg: srcImgG,
-    tags: tagsT,
+    name: nameTrivia,
+    description: descriptionTrivia,
+    href: hrefTriva,
+    srcImg: srcImgTrivia,
+    tags: tagsTrivia,
   },
   RecipesApp5: {
-    name: nameT,
-    description: descriptionT,
-    href: hrefT,
-    srcImg: srcImgT,
-    tags: tagsT,
+    name: nameTrivia,
+    description: descriptionTrivia,
+    href: hrefTriva,
+    srcImg: srcImgTrivia,
+    tags: tagsTrivia,
   },
   RecipesApp6: {
-    name: nameT,
-    description: descriptionT,
-    href: hrefT,
-    srcImg: srcImgG,
-    tags: tagsT,
+    name: nameTrivia,
+    description: descriptionTrivia,
+    href: hrefTriva,
+    srcImg: srcImgTrivia,
+    tags: tagsTrivia,
   },
 };
 
